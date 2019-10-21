@@ -30,11 +30,17 @@ Workshop Mode:
 ### Installation
 * Clone the git repo. `git clone https://github.com/shivamdixit/WebGoatPHP.git`
 * Move it to your document root
+
+#### With Docker
+* Execute the commande `docker-compose up -d`
+
+#### Without Docker
 * Import the database from SQL/webgoat.php
 * Enter your database connection details in app/config/application.php (Line 52)
-* Open the application from localhost
-* Default username:password for single-user mode: `guest:guest`
 
+#### Then access to the application
+* Open the application from localhost (ot the ip of your VM if you're using Docker Toolbox)
+* Default username:password for single-user mode: `guest:guest`
 
 ### Contribute
 * Fork the repo
